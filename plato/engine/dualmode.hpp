@@ -19,6 +19,9 @@
   See the AUTHORS file for names of contributors.
 */
 
+/*gemini论文中提双模式计算引擎
+ * 图计算根据信息的流动方向有两种典型的处理 模式 ：推动 (push) 模式和拉动 (pull) 模式。使用推 动模式时，
+ * 每个参与计算的顶点沿着出边传递消息； 而拉动模式则相反，让所有顶点沿着入边从邻接顶点获取消息*/
 #ifndef __PLATO_ENGINE_DUALMODE_HPP__
 #define __PLATO_ENGINE_DUALMODE_HPP__
 

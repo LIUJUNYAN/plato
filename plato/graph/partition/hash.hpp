@@ -19,6 +19,9 @@
   See the AUTHORS file for names of contributors.
 */
 
+
+/* 通过std 的hash算法，根据节点id进行分区，分区数根据cluster info 获取得到 。*/
+
 #ifndef __PLATO_GRAPH_PARTITION_HASH_HPP__
 #define __PLATO_GRAPH_PARTITION_HASH_HPP__
 

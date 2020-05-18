@@ -19,6 +19,10 @@
   See the AUTHORS file for names of contributors.
 */
 
+
+/*plato  的 工作偷取 (work stealing) ，使得多核间的负载尽可能均衡。
+ * */
+
 #ifndef __PLATO_ENGINE_WALK_HPP__
 #define __PLATO_ENGINE_WALK_HPP__
 

@@ -19,6 +19,8 @@
   See the AUTHORS file for names of contributors.
 */
 
+/*定义一些抽象方法*/
+
 #ifndef __PLATO_GRAPH_PARTITION_DUMMY_HPP__
 #define __PLATO_GRAPH_PARTITION_DUMMY_HPP__
 

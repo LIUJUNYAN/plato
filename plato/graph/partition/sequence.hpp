@@ -19,6 +19,9 @@
   See the AUTHORS file for names of contributors.
 */
 
+/*节点序列分配，MPI_Allreduce ,分配到各个执行进程   （块划分）  ：
+ * 将 点集进行块式划分，将这些块分配给各个节点，然 后让每个顶点的拥有者（即相应节点）维护相应的 出边 / 入边*/
+
 #ifndef __PLATO_GRAPH_PARTITION_SEQUENCE_HPP__
 #define __PLATO_GRAPH_PARTITION_SEQUENCE_HPP__
 
